@@ -47,7 +47,7 @@ export function Contact() {
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl mb-4">Let's Build Something Amazing</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Ready to bring your iOS app idea to life? Let's discuss your project and 
+            Ready to bring your mobile app idea to life? Let's discuss your project and 
             explore how we can create exceptional mobile experiences together.
           </p>
         </div>
@@ -96,7 +96,7 @@ export function Contact() {
               <CardHeader>
                 <CardTitle>Available for Projects</CardTitle>
                 <CardDescription>
-                  Currently accepting new iOS development projects and consulting opportunities.
+                  Currently accepting new mobile development projects and consulting opportunities.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -123,10 +123,12 @@ export function Contact() {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>• iOS app development from scratch</li>
-                  <li>• Legacy app modernization & SwiftUI migration</li>
+                  <li>• iOS app development with Swift & SwiftUI</li>
+                  <li>• Cross-platform apps with Flutter & React Native</li>
+                  <li>• FlutterFlow rapid prototyping & development</li>
+                  <li>• Legacy app modernization & migration</li>
                   <li>• Performance optimization & debugging</li>
-                  <li>• App Store submission & optimization</li>
+                  <li>• App Store & Play Store submission</li>
                   <li>• Code reviews & architecture consulting</li>
                   <li>• Team mentoring & technical leadership</li>
                 </ul>
@@ -139,7 +141,7 @@ export function Contact() {
             <CardHeader>
               <CardTitle>Start Your Project</CardTitle>
               <CardDescription>
-                Tell me about your iOS app idea and let's discuss how I can help bring it to life.
+                Tell me about your mobile app idea and let's discuss how I can help bring it to life.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -186,9 +188,14 @@ export function Contact() {
                         <SelectValue placeholder="Select project type" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="new-app">New iOS App</SelectItem>
+                        <SelectItem value="new-app">New Mobile App</SelectItem>
+                        <SelectItem value="cross-platform">Cross-Platform Development</SelectItem>
+                        <SelectItem value="ios-app">iOS App Development</SelectItem>
+                        <SelectItem value="flutter-app">Flutter App Development</SelectItem>
+                        <SelectItem value="react-native">React Native Development</SelectItem>
+                        <SelectItem value="flutterflow">FlutterFlow Development</SelectItem>
                         <SelectItem value="existing-app">Improve Existing App</SelectItem>
-                        <SelectItem value="migration">SwiftUI Migration</SelectItem>
+                        <SelectItem value="migration">Platform Migration</SelectItem>
                         <SelectItem value="consulting">Consulting</SelectItem>
                         <SelectItem value="team-augmentation">Team Augmentation</SelectItem>
                       </SelectContent>
@@ -233,7 +240,7 @@ export function Contact() {
                     id="message"
                     name="message"
                     rows={5}
-                    placeholder="Tell me about your iOS app idea, features, target audience, and any specific requirements..."
+                    placeholder="Tell me about your mobile app idea, platform preferences, features, target audience, and any specific requirements..."
                     value={formData.message}
                     onChange={handleChange}
                     required

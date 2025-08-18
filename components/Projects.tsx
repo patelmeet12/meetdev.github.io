@@ -11,60 +11,66 @@ export function Projects() {
       description: "A comprehensive fitness tracking app with workout planning, progress analytics, and social features. Built with SwiftUI and HealthKit integration.",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=300&fit=crop",
       tags: ["SwiftUI", "HealthKit", "Core Data", "CloudKit"],
+      platform: "iOS",
       appStoreUrl: "#",
       githubUrl: "#",
       featured: true,
       stats: { downloads: "50K+", rating: "4.9", reviews: "1.2K" }
     },
     {
-      title: "TaskMaster",
-      description: "An intelligent task management app with AI-powered scheduling and team collaboration features. Enterprise-ready with advanced security.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-      tags: ["Swift", "UIKit", "Combine", "Push Notifications"],
+      title: "EcoCommerce",
+      description: "Cross-platform e-commerce app for sustainable products with Flutter. Features include real-time inventory, payment integration, and carbon footprint tracking.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
+      tags: ["Flutter", "Dart", "Firebase", "Stripe"],
+      platform: "Cross-Platform",
       appStoreUrl: "#",
       githubUrl: "#",
       featured: true,
       stats: { downloads: "100K+", rating: "4.8", reviews: "3.5K" }
     },
     {
+      title: "TaskMaster",
+      description: "An intelligent task management app built with React Native. Features AI-powered scheduling, team collaboration, and cross-platform synchronization.",
+      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
+      tags: ["React Native", "TypeScript", "Redux", "Expo"],
+      platform: "Cross-Platform",
+      appStoreUrl: "#",
+      githubUrl: "#",
+      featured: true,
+      stats: { downloads: "85K+", rating: "4.7", reviews: "2.8K" }
+    },
+    {
       title: "WeatherWise",
       description: "Beautiful weather app with hyperlocal forecasts, severe weather alerts, and stunning visualizations. Featured by Apple.",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
       tags: ["SwiftUI", "WeatherKit", "MapKit", "WidgetKit"],
+      platform: "iOS",
       appStoreUrl: "#",
       githubUrl: "#",
       featured: false,
       stats: { downloads: "200K+", rating: "4.7", reviews: "8.1K" }
     },
     {
-      title: "CryptoPortfolio",
-      description: "Real-time cryptocurrency portfolio tracker with advanced charting, price alerts, and portfolio analytics.",
-      image: "https://images.unsplash.com/photo-1640340434855-6084b1f4901c?w=500&h=300&fit=crop",
-      tags: ["Swift", "Charts", "Combine", "Core Data"],
+      title: "MindfulMoments",
+      description: "Meditation and mindfulness app built with FlutterFlow. Features guided sessions, progress tracking, and community challenges.",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+      tags: ["FlutterFlow", "Firebase", "Stripe", "Push Notifications"],
+      platform: "Cross-Platform",
       appStoreUrl: "#",
       githubUrl: "#",
       featured: false,
-      stats: { downloads: "75K+", rating: "4.6", reviews: "2.8K" }
+      stats: { downloads: "75K+", rating: "4.6", reviews: "2.1K" }
     },
     {
       title: "FoodieFinds",
       description: "Restaurant discovery app with AR menu scanning, social reviews, and personalized recommendations using machine learning.",
       image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&h=300&fit=crop",
       tags: ["SwiftUI", "ARKit", "Vision", "MapKit"],
+      platform: "iOS",
       appStoreUrl: "#",
       githubUrl: "#",
       featured: false,
       stats: { downloads: "30K+", rating: "4.5", reviews: "900" }
-    },
-    {
-      title: "StudyBuddy",
-      description: "Educational app for students with spaced repetition, study groups, and progress tracking. Used by 10+ universities.",
-      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&h=300&fit=crop",
-      tags: ["Swift", "Core ML", "CloudKit", "WidgetKit"],
-      appStoreUrl: "#",
-      githubUrl: "#",
-      featured: false,
-      stats: { downloads: "120K+", rating: "4.9", reviews: "4.2K" }
     }
   ];
 
@@ -72,9 +78,9 @@ export function Projects() {
     <section id="projects" className="py-16 px-4">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl mb-4">Featured Apps</h2>
+          <h2 className="text-3xl lg:text-4xl mb-4">Featured Projects</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            A showcase of iOS applications I've built, from concept to App Store success
+            A showcase of mobile applications I've built across iOS, Flutter, and React Native platforms
           </p>
         </div>
         
@@ -105,7 +111,7 @@ export function Projects() {
               <CardHeader>
                 <CardTitle className="flex items-center justify-between">
                   {project.title}
-                  <Badge variant="outline" className="text-xs">iOS</Badge>
+                  <Badge variant="outline" className="text-xs">{project.platform}</Badge>
                 </CardTitle>
                 <CardDescription>{project.description}</CardDescription>
               </CardHeader>
@@ -141,7 +147,7 @@ export function Projects() {
         <div className="text-center mt-12">
           <Button variant="outline" size="lg">
             <ExternalLink className="w-4 h-4 mr-2" />
-            View All Apps on App Store
+            View All Projects on GitHub
           </Button>
         </div>
       </div>

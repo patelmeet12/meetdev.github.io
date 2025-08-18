@@ -21,20 +21,18 @@ export function Hero() {
                 Alex Chen
               </h1>
               <h2 className="text-2xl lg:text-3xl text-muted-foreground">
-                Senior iOS Developer
+                Professional iOS & Flutter Developer
               </h2>
             </div>
             <p className="text-lg text-muted-foreground max-w-lg">
-              Passionate iOS developer with 8+ years of experience crafting elegant, 
-              user-centric mobile applications. Specialized in Swift, SwiftUI, and 
-              building scalable iOS solutions that delight millions of users.
+              I'm a passionate mobile developer specializing in iOS and Flutter applications with expertise in Swift, SwiftUI, Flutter, React Native, and FlutterFlow. With 7+ years of professional experience, I've delivered numerous successful mobile projects for clients worldwide.
             </p>
             <div className="flex gap-4">
               <Button 
                 size="lg"
                 onClick={() => scrollToSection('projects')}
               >
-                View My Apps
+                View My Projects
               </Button>
               <Button 
                 variant="outline" 
@@ -60,13 +58,13 @@ export function Hero() {
             <div className="relative">
               <ImageWithFallback 
                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
-                alt="Alex Chen - Senior iOS Developer"
+                alt="Professional iOS & Flutter Developer"
                 className="w-80 h-80 rounded-2xl object-cover border-4 border-accent shadow-xl"
               />
               <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground px-4 py-2 rounded-lg shadow-lg">
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                  <span className="text-sm">8+ Years iOS</span>
+                  <span className="text-sm">7+ Years Mobile</span>
                 </div>
               </div>
             </div>

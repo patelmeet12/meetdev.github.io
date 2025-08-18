@@ -26,7 +26,7 @@ export function About() {
       icon: <Code className="w-6 h-6" />,
       number: "50K+",
       label: "Lines of Code",
-      description: "Swift & Objective-C"
+      description: "Swift, Dart & JS"
     }
   ];
 
@@ -36,7 +36,7 @@ export function About() {
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl mb-4">About Me</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Building exceptional iOS experiences that connect people and solve real-world problems
+            Building exceptional mobile experiences across iOS and Flutter platforms that connect people and solve real-world problems
           </p>
         </div>
         
@@ -63,29 +63,29 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p>
-              I'm a Senior iOS Developer with over 8 years of experience building 
+              I'm a Professional iOS & Flutter Developer with over 7 years of experience building 
               innovative mobile applications that have reached millions of users worldwide. 
-              My journey began with Objective-C and evolved with Swift, and I've been 
-              passionate about iOS development ever since the first iPhone was released.
+              My expertise spans native iOS development with Swift and SwiftUI, as well as 
+              cross-platform solutions using Flutter and React Native.
             </p>
             <p>
-              Throughout my career, I've worked with startups and Fortune 500 companies, 
-              leading development teams and architecting scalable iOS solutions. I specialize 
-              in SwiftUI, Combine, Core Data, and modern iOS patterns like MVVM and Clean Architecture.
+              Throughout my career, I've worked with startups and established companies, 
+              delivering scalable mobile solutions that are not only visually appealing but also 
+              performant and user-friendly. I leverage FlutterFlow to accelerate development while 
+              maintaining customization and scalability.
             </p>
             <p>
-              I'm particularly passionate about performance optimization, accessibility, 
-              and creating delightful user experiences that make complex tasks feel simple 
-              and intuitive.
+              I focus on creating apps that are performant, scalable, and user-friendly. When I'm not coding, 
+              you can find me contributing to open-source projects or exploring new technologies in the mobile development space.
             </p>
             
             <div className="space-y-3">
               <h4>Currently Learning</h4>
               <div className="flex flex-wrap gap-2">
                 <Badge variant="outline">SwiftUI 6.0</Badge>
-                <Badge variant="outline">iOS 18 APIs</Badge>
-                <Badge variant="outline">Vision Pro Development</Badge>
-                <Badge variant="outline">Swift Concurrency</Badge>
+                <Badge variant="outline">Flutter 3.27</Badge>
+                <Badge variant="outline">React Native 0.75</Badge>
+                <Badge variant="outline">FlutterFlow AI</Badge>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@ export function About() {
           <div className="grid gap-6">
             <Card>
               <CardContent className="p-6">
-                <h3 className="mb-3">iOS App Development</h3>
+                <h3 className="mb-3">iOS Development</h3>
                 <p className="text-muted-foreground">
                   Expertise in Swift, SwiftUI, UIKit, and the complete iOS development 
                   ecosystem from concept to App Store deployment.
@@ -103,20 +103,20 @@ export function About() {
             
             <Card>
               <CardContent className="p-6">
-                <h3 className="mb-3">Architecture & Design Patterns</h3>
+                <h3 className="mb-3">Flutter & Cross-Platform</h3>
                 <p className="text-muted-foreground">
-                  Proficient in MVVM, Clean Architecture, Coordinator Pattern, and 
-                  building maintainable, testable iOS applications.
+                  Building beautiful, natively compiled applications for mobile from a single 
+                  codebase using Flutter, React Native, and FlutterFlow.
                 </p>
               </CardContent>
             </Card>
             
             <Card>
               <CardContent className="p-6">
-                <h3 className="mb-3">Team Leadership</h3>
+                <h3 className="mb-3">Mobile Architecture</h3>
                 <p className="text-muted-foreground">
-                  Experience leading iOS development teams, mentoring junior developers, 
-                  and establishing best practices for code quality and collaboration.
+                  Proficient in MVVM, Clean Architecture, BLoC pattern, and 
+                  building maintainable, testable mobile applications across platforms.
                 </p>
               </CardContent>
             </Card>

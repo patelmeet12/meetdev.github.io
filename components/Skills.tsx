@@ -18,54 +18,54 @@ export function Skills() {
       ]
     },
     {
-      title: "Architecture & Patterns",
+      title: "Flutter & Cross-Platform",
       icon: <Code className="w-5 h-5" />,
       skills: [
-        { name: "MVVM", level: 92 },
-        { name: "Clean Architecture", level: 88 },
-        { name: "Coordinator Pattern", level: 85 },
-        { name: "Dependency Injection", level: 82 },
-        { name: "Protocol-Oriented Programming", level: 90 },
-        { name: "Combine Framework", level: 87 }
+        { name: "Flutter/Dart", level: 90 },
+        { name: "React Native", level: 85 },
+        { name: "FlutterFlow", level: 88 },
+        { name: "BLoC Pattern", level: 87 },
+        { name: "Provider/Riverpod", level: 85 },
+        { name: "JavaScript/TypeScript", level: 82 }
       ]
     },
     {
-      title: "Apple Frameworks",
+      title: "Architecture & Patterns",
       icon: <Database className="w-5 h-5" />,
       skills: [
-        { name: "Core Data", level: 90 },
-        { name: "CloudKit", level: 85 },
-        { name: "HealthKit", level: 78 },
-        { name: "ARKit", level: 72 },
-        { name: "Core ML", level: 75 },
-        { name: "WidgetKit", level: 88 }
+        { name: "MVVM", level: 92 },
+        { name: "Clean Architecture", level: 88 },
+        { name: "Dependency Injection", level: 82 },
+        { name: "Repository Pattern", level: 87 },
+        { name: "State Management", level: 90 },
+        { name: "Design Patterns", level: 88 }
       ]
     }
   ];
 
   const additionalSkills = [
     {
-      category: "Testing & Quality",
+      category: "Mobile Frameworks & Tools",
       icon: <TestTube className="w-5 h-5" />,
-      skills: ["XCTest", "UI Testing", "TDD", "Snapshot Testing", "Fastlane", "CI/CD"]
+      skills: ["Core Data", "Firebase", "SQLite", "Hive", "GetX", "MobX", "Redux", "CloudKit"]
     },
     {
-      category: "Tools & Services",
+      category: "Development & Deployment",
       icon: <Cloud className="w-5 h-5" />,
-      skills: ["Firebase", "GitHub Actions", "TestFlight", "App Store Connect", "Charles Proxy", "Instruments"]
+      skills: ["App Store Connect", "Google Play Console", "TestFlight", "Fastlane", "CI/CD", "GitHub Actions", "Codemagic", "Bitrise"]
     },
     {
-      category: "Leadership & Collaboration",
+      category: "Design & Collaboration",
       icon: <Users className="w-5 h-5" />,
-      skills: ["Team Leadership", "Code Review", "Mentoring", "Agile/Scrum", "Technical Documentation", "App Store Optimization"]
+      skills: ["Figma", "Adobe XD", "UI/UX Design", "Material Design", "Human Interface Guidelines", "Responsive Design", "Agile/Scrum", "Team Leadership"]
     }
   ];
 
   const certifications = [
-    "Apple Certified iOS Developer",
-    "Swift Certified Developer",
-    "AWS Mobile Developer",
-    "Scrum Master Certified"
+    "Flutter Certified Developer",
+    "Swift Certified Developer", 
+    "React Native Specialist",
+    "FlutterFlow Expert"
   ];
 
   return (
@@ -74,7 +74,7 @@ export function Skills() {
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl mb-4">Skills & Expertise</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive iOS development skills built over 8+ years of professional experience
+            Comprehensive mobile development skills across iOS and Flutter platforms built over 7+ years of professional experience
           </p>
         </div>
 
@@ -139,8 +139,8 @@ export function Skills() {
           
           <div className="bg-muted rounded-lg p-6 max-w-2xl mx-auto">
             <p className="text-muted-foreground">
-              "Experienced in building iOS applications from concept to App Store deployment, 
-              with a focus on performance, user experience, and maintainable code architecture."
+              "Experienced in building mobile applications from concept to deployment across iOS and Flutter platforms, 
+              with a focus on performance, user experience, and maintainable cross-platform architecture."
             </p>
           </div>
         </div>
